@@ -175,7 +175,8 @@ Parameters:
 
 ## Notes
 
-- The repository contains an `AccoustIDAPIKey` file, but the current module implementation only generates local fingerprints and does not call the AcoustID web API.
+- The module only generates local fingerprints and does not call the AcoustID web API.
+- Any local key file such as `PsAcoustId/AccoustIDAPIKey` is ignored by git and is not required for fingerprint generation.
 - Fingerprint generation currently supports 16-bit and 24-bit PCM decoding paths.
 
 ## Third-Party Notices
@@ -183,3 +184,5 @@ Parameters:
 For attribution and upstream project links for bundled external binaries, see:
 
 - `PsAcoustId/lib/README.md`
+- `PsAcoustId/THIRD-PARTY-NOTICES.md`
+- `PsAcoustId/licenses/`

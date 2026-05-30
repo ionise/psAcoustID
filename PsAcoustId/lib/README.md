@@ -24,6 +24,9 @@ This module redistributes binaries from the following third-party projects in th
 
 If you distribute this module, ensure third-party license terms are included and complied with according to the versions you bundle.
 
+For packaged attribution details, binary versions, and upstream license links, see `../THIRD-PARTY-NOTICES.md`.
+Full license texts included with the module are in `../licenses/`.
+
 ## Required Files
 
 ### Core (Always Required)

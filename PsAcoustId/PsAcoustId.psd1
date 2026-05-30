@@ -14,6 +14,16 @@
     PrivateData = @{
         PSData = @{
             Tags = @('acoustid', 'chromaprint', 'audio', 'fingerprint')
+            ProjectUri = 'https://github.com/ionise/psAcoustID'
+            LicenseUri = 'https://github.com/ionise/psAcoustID/blob/main/LICENSE'
+            ReleaseNotes = @'
+Initial PSGallery-ready release. Generates local AcoustID/Chromaprint fingerprints from WAV/AIFF/MP3/FLAC files.
+
+Licenses Included:
+- Module license: MIT (see LICENSE)
+- Third-party notices: THIRD-PARTY-NOTICES.md
+- Full third-party license texts: licenses/
+'@
         }
     }
 }
